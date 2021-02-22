@@ -88,7 +88,7 @@ TARGET_ENABLE_MEDIADRM_64 := true
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/configs/config.fs
 
 # FOD
-TARGET_SURFACEFLINGER_FOD_LIB := //$(DEVICE_PATH):libfod_extension.lito
+TARGET_SURFACEFLINGER_FOD_LIB := //$(DEVICE_PATH):libfod_extension.monet
 TARGET_USES_FOD_ZPOS := true
 
 # HIDL
@@ -201,6 +201,7 @@ SELINUX_IGNORE_NEVERALLOWS := true
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
     $(DEVICE_PATH)/sepolicy/private \
 include device/qcom/sepolicy/SEPolicy.mk
+
 
 # Screen
 TARGET_SCREEN_DENSITY := 500

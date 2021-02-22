@@ -42,6 +42,9 @@ dev.pm.dyn_samplingrate=1
 # DPM
 persist.vendor.dpm.feature=1
 
+# FOD
+    persist.fod.modified.dc_status=false 
+
 # Graphics
 debug.cpurend.vsync=false
 debug.sf.disable_backpressure=1

@@ -45,7 +45,7 @@ PRODUCT_SHIPPING_API_LEVEL := 29
 PRODUCT_TARGET_VNDK_VERSION := 30
 
 # Board
-TARGET_BOARD_PLATFORM := lito
+TARGET_BOARD_PLATFORM := monet
 
 # A/B
 AB_OTA_UPDATER := false
@@ -125,10 +125,10 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    lineage.biometrics.fingerprint.inscreen@1.0-service.lito
+    lineage.biometrics.fingerprint.inscreen@1.0-service.monet
 
 PRODUCT_COPY_FILES += \
-   	vendor/revengeos/config/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml:system/etc/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml
+   	vendor/dot/config/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml:system/etc/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml
 
 TARGET_HAS_FOD := true
 

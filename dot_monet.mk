@@ -18,10 +18,10 @@
 $(call inherit-product, device/xiaomi/monet/device.mk)
 
 # Inherit some common RevengeOS stuff.
-$(call inherit-product, vendor/revengeos/config/common.mk)
+$(call inherit-product, vendor/dot/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := revengeos_monet
+PRODUCT_NAME := dot_monet
 PRODUCT_DEVICE := monet
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi 10 Lite 5G
@@ -30,9 +30,11 @@ PRODUCT_MANUFACTURER := Mi
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# RevengeOS Device Maintainers
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    DEVICE_MAINTAINERS="xSylla"
+# Gapps
+#TARGET_GAPPS_ARCH := arm64
+
+# Face unlock
+TARGET_USES_FACE_UNLOCK := true
 
 PRODUCT_CHARACTERISTICS := nosdcard
 
