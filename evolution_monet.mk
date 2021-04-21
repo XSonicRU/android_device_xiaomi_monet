@@ -21,7 +21,7 @@ $(call inherit-product, device/xiaomi/monet/device.mk)
 $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := evolutionx_monet
+PRODUCT_NAME := evolution_monet
 PRODUCT_DEVICE := monet
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi 10 Lite 5G
