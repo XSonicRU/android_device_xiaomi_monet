@@ -44,6 +44,7 @@ persist.vendor.dpm.feature=1
 
 # FOD
     persist.fod.modified.dc_status=false 
+    ro.hardware.fp.fod=true
 
 # Graphics
 debug.cpurend.vsync=false

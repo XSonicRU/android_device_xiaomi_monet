@@ -34,7 +34,8 @@
          2 = left side
          3 = right side
     -->
-    <integer name="config_fingerprintSensorLocation">4</integer> 
+    <integer name="config_fingerprintSensorLocation">1</integer> 
 <!-- Whether device has screen off FOD support -->
     <bool name="config_supportScreenOffFod">true</bool>
+    <bool name="config_supportSmartCharging">true</bool>
 </resources>

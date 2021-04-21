@@ -17,11 +17,11 @@
 # Inherit device configuration
 $(call inherit-product, device/xiaomi/monet/device.mk)
 
-# Inherit some common RevengeOS stuff.
-$(call inherit-product, vendor/dot/config/common.mk)
+# Inherit some common EvolutionX stuff.
+$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := dot_monet
+PRODUCT_NAME := evolution_monet
 PRODUCT_DEVICE := monet
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi 10 Lite 5G
