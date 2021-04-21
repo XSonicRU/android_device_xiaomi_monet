@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolutionx_monet.mk
+    $(LOCAL_DIR)/evolution_monet.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolutionx_monet-user \
-    evolutionx_monet-userdebug \
-    evolutionx_monet-eng
+    evolution_monet-user \
+    evolution_monet-userdebug \
+    evolution_monet-eng
