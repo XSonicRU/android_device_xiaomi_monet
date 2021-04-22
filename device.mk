@@ -234,7 +234,7 @@ PRODUCT_HOST_PACKAGES += \
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-rom
+    $(LOCAL_PATH)/overlay
 
 # D Overlays
 PRODUCT_PACKAGES += \
